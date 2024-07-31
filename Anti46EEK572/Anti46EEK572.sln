@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anti46EEK572", "Anti46EEK572\Anti46EEK572.csproj", "{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Debug|x64.ActiveCfg = Debug|x64
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Debug|x64.Build.0 = Debug|x64
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Release|x64.ActiveCfg = Release|x64
+		{ADFEE166-4F7C-4AAE-881A-91DD5B3A790F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8B76A5E-AC6D-496A-BA96-33CA53F4DA0B}
+	EndGlobalSection
+EndGlobal

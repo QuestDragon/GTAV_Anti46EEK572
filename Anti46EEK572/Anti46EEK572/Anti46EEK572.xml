@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Platesタグの中にPlateタグを用意し、その中にランダム化させたいナンバーを指定してください。
+Platesタグの下にOverridesタグを用意し、その中にOverrideタグを用意してナンバーを指定すると、Plateタグ内に指定されたナンバーの車両に乗車した際に、Overrideタグで指定したナンバーに書き換えることができます。
+未指定にした場合はランダム化されます。なお、OverridesタグとOverrideタグは必ず用意しておいてください。用意されていないと正しくスクリプトが動作しない可能性があります。
+！！ナンバープレートの指定を8文字未満にする場合の注意点！！
+ゲームの仕様上、8文字未満の文字は左右に半角スペースが自動補完されて、ナンバーが中央揃えになるようになっています。そのため、8文字未満でナンバープレートを指定する場合は、中央に揃うよう左右に半角スペースを入れて合計8文字になるようにしてください。
+半角スペースを入れず、ナンバープレートの文字だけを指定して8文字未満になっている場合、スクリプトはナンバープレートの認識と比較ができません。
+Prepare a Plate tag inside the Plates tag and specify the number you want to randomize in that tag.
+Prepare an Overrides tag under the Plates tag, and within that prepare an Override tag and specify a number. When you board a vehicle with the number specified in the Plate tag, the number will be rewritten to the one specified in the Override tag.
+If not specified, it will be randomized. Please make sure to prepare the Overrides tag and the Override tag. If they are not prepared, the script may not work correctly.
+!! Points to note when specifying license plates with less than 8 characters!!
+Due to the game's specifications, characters with fewer than 8 characters are automatically filled in with half-width spaces on the left and right, and the number is centered. Therefore, when specifying a license plate with fewer than 8 characters, make sure to add half-width spaces on the left and right so that it is centered and totals 8 characters.
+If you specify only the characters of the license plate without adding half-width spaces and it is fewer than 8 characters, the script will not be able to recognize and compare the license plate.
+-->
+
+<AntiPlates>
+	
+	<PlateSetup>
+		<Plates>
+			<Plate>46EEK572</Plate>
+		</Plates>
+		<Overrides>
+			<Override />
+		</Overrides>
+	</PlateSetup>
+
+	<PlateSetup>
+		<Plates>
+			<Plate>  TEST  </Plate>
+		</Plates>
+		<Overrides>
+			<Override>THIS</Override>
+			<Override>IS</Override>
+			<Override>SAMPLE</Override>
+		</Overrides>
+	</PlateSetup>
+	
+</AntiPlates>

@@ -1,0 +1,10 @@
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\bin\x64\Release\Anti46EEK572.xml
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\bin\x64\Release\Anti46EEK572.dll
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\bin\x64\Release\Anti46EEK572.pdb
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\bin\x64\Release\ScriptHookVDotNet3.dll
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\obj\x64\Release\Anti46EEK572.csproj.AssemblyReference.cache
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\obj\x64\Release\Anti46EEK572.csproj.CoreCompileInputs.cache
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\obj\x64\Release\Anti46EE.D3EA9AE1.Up2Date
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\obj\x64\Release\Anti46EEK572.dll
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\obj\x64\Release\Anti46EEK572.pdb
+E:\Developer\VisualStudio\Anti46EEK572\Anti46EEK572\bin\x64\Release\Anti46EEK572.ini
