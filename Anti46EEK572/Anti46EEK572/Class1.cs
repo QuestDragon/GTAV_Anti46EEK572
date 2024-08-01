@@ -188,14 +188,14 @@ namespace Anti46EEK572
             IEnumerable<XElement> pls = xml.Descendants("Plate");
             foreach (XElement pl in pls)
             {
-                plates.Add(pl.Value);
+                plates.Add(pl.Value.Trim()); //前後の空白を削除して追加
             }
 
             // Overrideタグ全てを取得
             IEnumerable<XElement> ovrs = xml.Descendants("Override");
             foreach (XElement ovr in ovrs)
             {
-                overrides.Add(ovr.Value);
+                overrides.Add(ovr.Value.Trim()); //前後の空白を削除して追加
             }
 
             foreach (string p in plates)
